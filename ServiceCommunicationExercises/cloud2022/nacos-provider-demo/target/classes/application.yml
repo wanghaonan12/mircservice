@@ -1,0 +1,13 @@
+server:
+  port: 8090
+# 应用名称
+spring:
+  application:
+    name: cloud-goods-service
+  # 配置服务注册中心 nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 173.82.195.158:8848
+      username: nacos
+      password: nacos
